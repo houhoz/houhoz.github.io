@@ -7,7 +7,7 @@ title: A blog recording my life
 subtitle: ''
 description: ''
 keywords:
-author: hyzhao
+author: hooleo
 language: zh-CN
 timezone: ''
 
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aurora
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
