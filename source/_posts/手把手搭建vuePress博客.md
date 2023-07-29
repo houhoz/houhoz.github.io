@@ -102,5 +102,5 @@ package.json 增加部署命令
 
 在仓库 Settings ---> pages
 
-![img](/images/141406.png)
+![img](/img/141406.png)
 然后就可以访问 USERNAME.github.io
