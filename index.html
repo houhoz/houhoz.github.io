@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>A blog recording my life</title><meta name="author" content="leohoo"><meta name="copyright" content="leohoo"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="A blog recording my life">
+<meta property="og:url" content="https://houhoz.github.io/index.html">
+<meta property="og:site_name" content="A blog recording my life">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://houhoz.github.io/img/avatar.png">
+<meta property="article:author" content="leohoo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://houhoz.github.io/img/avatar.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://houhoz.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'A blog recording my life',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-07-29 03:16:57'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="A blog recording my life"><span class="site-name">A blog recording my life</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">A blog recording my life</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/ES6%E4%B8%ADClass%E7%9A%84%E6%96%B9%E6%B3%95%E4%B8%8D%E5%8F%AF%E9%81%8D%E5%8E%86%E7%9A%84%E5%8E%9F%E5%9B%A0%EF%BC%8CTS%E4%B8%AD%E9%81%8D%E5%8E%86Class%E7%9A%84%E6%96%B9%E6%B3%95%E5%87%BA%E7%8E%B0%E4%BA%8C%E4%B9%89%E6%80%A7%E7%9A%84%E9%97%AE%E9%A2%98.html" title="ES6中Class的方法不可遍历的原因，TS中遍历Class的方法出现二义性的问题">ES6中Class的方法不可遍历的原因，TS中遍历Class的方法出现二义性的问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-23T21:45:29.000Z" title="发表于 2023-05-23 21:45:29">2023-05-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Note/">Note</a></span></div><div class="content">前言今天写了一段Ts代码，发现编译成ES5和ES6时的执行结果居然不同，花了点时间学习了一下，总结如下。
+问题在ts代码中，使用in操作符遍历对象成员，将代码编译成ES5和ES6时，结果是不同的。
+原因es6中class的所有非静态方法虽然是定义到原型对象上的，但是却是不可遍历的，源码如下
+&#x2F;&#x2F; 为target对象添加属性
+function _defineProperties(target, props) &#123;
+    for (var i &#x3D; 0; i &lt; props.length; i++) &#123;
+        var descriptor &#x3D; props[i]
+        &#x2F;&#x2F; enumerable 默认为 false
+        descriptor.enumerable &#x3D; descriptor.enumerable || false
+        descriptor.configurable &#x3D; true
+        if (&#39;value&#39; ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/useEffect%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97.html" title="UseEffect完整指南">UseEffect完整指南</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-09-29T11:22:13.000Z" title="发表于 2022-09-29 11:22:13">2022-09-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Note/">Note</a></span></div><div class="content">
+
+useEffect 完整指南useEffect 完整指南
+每一次渲染都有它自己的 Props and State
+当我们更新状态的时候，React 会重新渲染组件。每一次渲染都能拿到独立的count  状态，这个状态值是函数中的一个常量。
+
+每一次渲染都有它自己的事件处理函数
+我们发现count在每一次函数调用中都是一个常量值。值得强调的是 — 我们的组件函数每次渲染都会被调用，但是每一次调用中count值都是常量，并且它被赋予了当前渲染中的状态值。
+
+所以实际上，每一次渲染都有一个“新版本”的handleAlertClick。每一个版本的handleAlertClick“记住” 了它自己的  count：
+每次渲染都有它自己的 Effects我们已经知道count是某个特定渲染中的常量。事件处理函数“看到”的是属于它那次特定渲染中的count状态值。对于 effects 也同样如此：
+并不是count的值在“不变”的 effect 中发生了改变，而是effect 函数本身在每一次渲染中都不相同。
+每一个 effect 版本“看到”的count值都来自于它属于的那次渲染：
+每一次渲 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%88%B7%E5%85%A8%E9%87%8F%E5%8C%85.html" title="华为手机如何刷全量包">华为手机如何刷全量包</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-29T16:39:33.000Z" title="发表于 2022-03-29 16:39:33">2022-03-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></span></div><div class="content">什么是全量包全量包可以理解为一个完整的系统包，像我们平时通过系统升级下载的是补丁包。
+手机系统长期只是用增量包或补丁包升级，就 好像补胎一样，补丁越多越危险。系统也是如此，只是在一个系统上做修改打补丁，时间久了难免会出现运行不流畅无反应耗电发热什么的。全量包就能很好的解决这些问题，保证系统完整顺畅。
+全量包操作正常情况下不会丢失手机数据，不会删除保存的相片视频，不过还是建议在刷全量包之前进行系统重要数据备份！
+如何升级全量包
+手机关机
+长按音量键+和电源键，直至菜单出现。(注意如果出现开机也不可放手，直至出现菜单画面才可)
+选择“升级模式”，选择“eRecovery”模式，再选择“下载最新版本并恢复“
+点击“下载并恢复”之后会自动扫描无线网络,点击你的无线网络并输入密码，密码正确后会进入服务器获取安装包信息
+下载完成后自动进行校验安装包,安装包校验成功后，会自动进入恢复系统状态…
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/position:fixed%20%E4%B8%80%E5%AE%9A%E6%98%AF%E7%9B%B8%E5%AF%B9%E4%BA%8E%E6%B5%8F%E8%A7%88%E5%99%A8%E7%AA%97%E5%8F%A3%E8%BF%9B%E8%A1%8C%E5%AE%9A%E4%BD%8D%E5%90%97?.html" title="Position:fixed 一定是相对于浏览器窗口进行定位吗?">Position:fixed 一定是相对于浏览器窗口进行定位吗?</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-01-11T18:37:28.000Z" title="发表于 2022-01-11 18:37:28">2022-01-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Note/">Note</a></span></div><div class="content">前言position:fixed 前面一直以为是浏览器窗口进行定位；最近工作中出现一个 bug，将弹框组件（弹框是 fixed 定位）写下 tabcont 中，页面显示弹框是相对于 tabcont 进行定位。这个 bug 出现直接颠覆自己认知；
+重新认识一下MDN Web Docs
+取值
+static该关键字指定元素使用正常的布局行为，即元素在文档常规流中当前的布局位置。此时 top, right, bottom, left 和 z-index 属性无效。
+relative该关键字下，元素先放置在未添加定位时的位置，再在不改变页面布局的前提下调整元素位置（因此会在此元素未添加定位时所在位置留下空白）。position:relative 对 table-*-group, table-row, table-column, table-cell, table-caption 元素无效。
+absolute元素会被移出正常文档流，并不为元素预留空间，通过指定元素相对于最近的非 static 定位祖先元素的偏移，来确定元素位置。绝对定位的元素可以设置外边距（margins），且不会与其他边距合并。 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/%E8%AE%B0%E4%B8%80%E6%AC%A1url%E4%BC%A0%E5%8F%82%E5%BC%95%E5%8F%91%E7%9A%84bug.html" title="记一次url传参引发的bug">记一次url传参引发的bug</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-12-24T18:31:43.000Z" title="发表于 2021-12-24 18:31:43">2021-12-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Note/">Note</a></span></div><div class="content">bug 复现小程序开发的时候我们之前需要跳转第三方的 webview 页面，一般传参数的时候
+Taro.navigateTo(&#123;
+  url: &#96;&#x2F;pages&#x2F;webview&#x2F;index?url&#x3D;url&#96;,
+&#125;)
+
+这个时候我们在 webview 页面获取 url 的参数
+const url &#x3D; Taro.getCurrentInstance().router?.params?.url || &#39;&#39;
+
+url 后面没有添加参数，获取的时候也是没什么问题，但是 url 后面有参数，诸如https://bot.biyouxinli.com/lianxin-botserver/openApi/gotoPsyBot?channel=TXHBOT&amp;chnlCode=8BFE42DF24C45563B5EA6E82C67AF8139EC3757CFF1FC3E322D5CE2F41F97C407B021F83A6EF1ED3DD65CEE6&amp;unionId=我们再像上面的方式获取 u ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/npm%E3%80%81yarn%E3%80%81pnpm%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB.html" title="Npm、Yarn、Pnpm之间的区别">Npm、Yarn、Pnpm之间的区别</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-12-24T18:27:59.000Z" title="发表于 2021-12-24 18:27:59">2021-12-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Note/">Note</a></span></div><div class="content">NPMnpm 是 Node.js 能够如此成功的主要原因之一。npm 团队做了很多的工作，以确保 npm 保持向后兼容，并在不同的环境中保持一致。npm 是围绕着语义版本控制（semver）的思想而设计的给定一个版本号：主版本号.次版本号.补丁版本号， 以下这三种情况需要增加相应的版本号:
+
+主版本号： 当 API 发生改变，并与之前的版本不兼容的时候
+次版本号： 当增加了功能，但是向后兼容的时候
+补丁版本号： 当做了向后兼容的缺陷修复的时候
+
+YARNYarn 是什么？“Yarn 是由 Facebook、Google、Exponent 和 Tilde 联合推出了一个新的 JS 包管理工具 ，正如官方文档中写的，Yarn 是为了弥补 npm 的一些缺陷而出现的。”这句话让我想起了使用 npm 时的坑了：
+
+npm install 的时候巨慢。特别是新的项目拉下来要等半天，删除 node_modules，重新 install 的时候依旧如此
+同一个项目，安装的时候无法保持一致性。由于 package.json 文件中版本号的特点，下面三个版本号在安装的时候代表不同的含义。
+
+&quot; ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html" title="函数式编程">函数式编程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-12-23T18:14:42.000Z" title="发表于 2021-12-23 18:14:42">2021-12-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Note/">Note</a></span></div><div class="content">定义函数式编程就是一种抽象程度很高的编程范式，纯粹的函数式编程语言编写的函数没有变量，因此，任意一个函数，只要输入是确定的，输出就是确定的，这种纯函数我们称之为没有副作用。
+创造一个移除所有 false（隐式类型转换为 false）类型数据的数组&#x2F;&#x2F; Underscore&#x2F;Loadsh
+const arr &#x3D; [0, 1, false, 2, &#39;&#39;, 3]
+_.compact(arr)
+
+&#x2F;&#x2F; Native
+arr.filter(Boolean)
+
+返回数组 a 中不包括数组 b 的部分const arrays &#x3D; [
+  [1, 2, 3, 4, 5],
+  [5, 2, 10],
+]
+&#x2F;&#x2F; Underscore&#x2F;Loadsh
+console.log(_.difference(arrays))
+&#x2F;&#x2F; output: [1,3,4]
+&#x2F;&#x2F; Native
+
+arrays.reduce(function (a, b) &#123;
+   ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%90%AD%E5%BB%BAvuePress%E5%8D%9A%E5%AE%A2.html" title="手把手搭建vuePress博客">手把手搭建vuePress博客</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-12-22T09:37:26.000Z" title="发表于 2021-12-22 09:37:26">2021-12-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Note/">Note</a></span></div><div class="content">本地安装vuePress 官方文档首先使用官方的脚手架生成基本的项目结构
+pnpm create vuepress blog
+#下面选择blog 之后一直回车
+
+项目结构
+├── README.md
+├── blog
+│   └── \_posts
+│   ├── 2018-11-7-frontmatter-in-vuepress-2.md
+│   ├── 2018-11-7-frontmatter-in-vuepress-3.md
+│   ├── 2018-11-7-frontmatter-in-vuepress.md
+│   ├── 2019-2-26-markdown-slot-2.md
+│   ├── 2019-2-26-markdown-slot-3.md
+│   ├── 2019-2-26-markdown-slot-4.md
+│   ├── 2019-2-26-markdown-slot.md
+│   ├── 2019-5-6-writing-a-vuepress-theme-2.md
+│   ├── 2019-5-6-writing-a-vuepress-theme-3 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">leohoo</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/houhoz"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/ES6%E4%B8%ADClass%E7%9A%84%E6%96%B9%E6%B3%95%E4%B8%8D%E5%8F%AF%E9%81%8D%E5%8E%86%E7%9A%84%E5%8E%9F%E5%9B%A0%EF%BC%8CTS%E4%B8%AD%E9%81%8D%E5%8E%86Class%E7%9A%84%E6%96%B9%E6%B3%95%E5%87%BA%E7%8E%B0%E4%BA%8C%E4%B9%89%E6%80%A7%E7%9A%84%E9%97%AE%E9%A2%98.html" title="ES6中Class的方法不可遍历的原因，TS中遍历Class的方法出现二义性的问题">ES6中Class的方法不可遍历的原因，TS中遍历Class的方法出现二义性的问题</a><time datetime="2023-05-23T21:45:29.000Z" title="发表于 2023-05-23 21:45:29">2023-05-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/useEffect%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97.html" title="UseEffect完整指南">UseEffect完整指南</a><time datetime="2022-09-29T11:22:13.000Z" title="发表于 2022-09-29 11:22:13">2022-09-29</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%88%B7%E5%85%A8%E9%87%8F%E5%8C%85.html" title="华为手机如何刷全量包">华为手机如何刷全量包</a><time datetime="2022-03-29T16:39:33.000Z" title="发表于 2022-03-29 16:39:33">2022-03-29</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/position:fixed%20%E4%B8%80%E5%AE%9A%E6%98%AF%E7%9B%B8%E5%AF%B9%E4%BA%8E%E6%B5%8F%E8%A7%88%E5%99%A8%E7%AA%97%E5%8F%A3%E8%BF%9B%E8%A1%8C%E5%AE%9A%E4%BD%8D%E5%90%97?.html" title="Position:fixed 一定是相对于浏览器窗口进行定位吗?">Position:fixed 一定是相对于浏览器窗口进行定位吗?</a><time datetime="2022-01-11T18:37:28.000Z" title="发表于 2022-01-11 18:37:28">2022-01-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/%E8%AE%B0%E4%B8%80%E6%AC%A1url%E4%BC%A0%E5%8F%82%E5%BC%95%E5%8F%91%E7%9A%84bug.html" title="记一次url传参引发的bug">记一次url传参引发的bug</a><time datetime="2021-12-24T18:31:43.000Z" title="发表于 2021-12-24 18:31:43">2021-12-24</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Note/"><span class="card-category-list-name">Note</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/"><span class="card-category-list-name">生活</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E7%8E%A9%E6%9C%BA/" style="font-size: 1.1em; color: #999">玩机</a> <a href="/tags/JavaScript/" style="font-size: 1.5em; color: #99a9bf">JavaScript</a> <a href="/tags/Bug/" style="font-size: 1.5em; color: #99a9bf">Bug</a> <a href="/tags/Css/" style="font-size: 1.1em; color: #999">Css</a> <a href="/tags/Vue/" style="font-size: 1.1em; color: #999">Vue</a> <a href="/tags/Npm/" style="font-size: 1.1em; color: #999">Npm</a> <a href="/tags/React/" style="font-size: 1.1em; color: #999">React</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span class="card-archive-list-date">九月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/01/"><span class="card-archive-list-date">一月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/12/"><span class="card-archive-list-date">十二月 2021</span><span class="card-archive-list-count">4</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">8</div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-07-29T03:16:57.828Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By leohoo</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script><script src="https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js"></script></div></body></html>
