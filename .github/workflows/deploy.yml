@@ -1,34 +1,45 @@
-name: Deploy to GitHub Pages
+name: Deploy
 
-on:
-  push:
-    branches:
-      - master # Set the default branch of your repository
+on: [push]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    name: A job to deploy blog.
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/checkout@v1
       with:
-        node-version: 18
-    - name: Cache dependencies
-      uses: actions/cache@v2
+        submodules: true # Checkout private submodules (themes or something else).
+
+    # Caching pnpm store to speed up workflows.
+    - name: Cache pnpm store
+      uses: actions/cache@v1
+      id: cache
       with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
-          ${{ runner.os }}-node-
+          ${{ runner.os }}-pnpm-
+
+    - name: Install pnpm
+      run: npm install -g pnpm
+
     - name: Install Dependencies
-      run: npm ci
-    - name: Build
-      run: npm run build
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: pnpm install
+
+    # Deploy hexo blog website.
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      id: deploy
+      uses: sma11black/hexo-action@v1.0.3
       with:
-        github_token: ${{ secrets.TOKEN }}
-        publish_dir: ./public
-        # cname: your-custom-domain.com # Optional: Use only if you have a custom domain
+        deploy_key: ${{ secrets.DEPLOY_KEY }}
+        user_name: your github username  # (or delete this input setting to use bot account)
+        user_email: your github useremail  # (or delete this input setting to use bot account)
+        commit_msg: ${{ github.event.head_commit.message }}  # (or delete this input setting to use hexo default settings)
+    
+    # Use the output from the `deploy` step (use for test action)
+    - name: Get the output
+      run: |
+        echo "${{ steps.deploy.outputs.notify }}"
