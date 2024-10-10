@@ -1,6 +1,6 @@
 ---
 title: Xcode15安装iOS 17.2 Simulator失败的问题
-date: 2024-12-29 18:30:59
+date: 2023-12-29 18:30:59
 tags:
   - React
 categories:
