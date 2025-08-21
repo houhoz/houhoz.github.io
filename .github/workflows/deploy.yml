@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # ⚠️ 如果你的默认分支不是 main，请改成对应分支
+      - main # ⚠️ 如果你的默认分支不是 main，请改
 
 permissions:
   contents: read
@@ -15,6 +15,8 @@ jobs:
     name: Build & Deploy
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    environment:
+      name: github-pages # 🔑 必须加上
 
     steps:
       - name: "☁️ Checkout repository"
@@ -43,7 +45,7 @@ jobs:
       - name: "⬆️ Upload artifact"
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist # ⚠️ 如果 Astro 输出目录不是 dist，请改成正确的
+          path: dist # ⚠️ 确认 Astro 输出目录
 
       - name: "🚀 Deploy to GitHub Pages"
         uses: actions/deploy-pages@v4
