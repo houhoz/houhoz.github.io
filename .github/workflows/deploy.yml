@@ -1,0 +1,49 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # ⚠️ 如果你的默认分支不是 main，请改成对应分支
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: "☁️ Checkout repository"
+        uses: actions/checkout@v4
+
+      - name: "📦 Install pnpm"
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.1
+
+      - name: "📦 Setup Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "pnpm"
+
+      - name: "📦 Install dependencies"
+        run: pnpm install --frozen-lockfile
+
+      - name: "🚀 Build project"
+        run: pnpm run build
+
+      - name: "⚙️ Setup Pages"
+        uses: actions/configure-pages@v5
+
+      - name: "⬆️ Upload artifact"
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist # ⚠️ 如果 Astro 输出目录不是 dist，请改成正确的
+
+      - name: "🚀 Deploy to GitHub Pages"
+        uses: actions/deploy-pages@v4
