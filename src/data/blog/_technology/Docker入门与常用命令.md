@@ -1,8 +1,8 @@
 ---
-title: docker入门及常用命令
+title: Docker 入门与常用命令
 author: Leohoo
 pubDatetime: 2022-08-22 15:11:26
-slug: docker-introduction-common-commands
+slug: docker-fundamentals-commands
 featured: false
 draft: false
 tags:

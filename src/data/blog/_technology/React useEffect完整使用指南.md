@@ -1,8 +1,8 @@
 ---
-title: useEffect 完整指南
+title: React useEffect 完整使用指南
 author: Leohoo
 pubDatetime: 2022-09-29 15:11:26
-slug: react-useeffect-complete-guide
+slug: react-useeffect-usage-guide
 featured: false
 draft: false
 tags:

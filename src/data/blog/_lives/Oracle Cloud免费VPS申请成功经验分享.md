@@ -1,8 +1,8 @@
 ---
-title: 今天终于申请通过了oracleVPS
+title: Oracle Cloud 免费 VPS 申请成功经验分享
 author: Leohoo
 pubDatetime: 2024-10-10 11:42:11
-slug: oracle-vps-application-success
+slug: oracle-cloud-free-vps-application-guide
 featured: false
 draft: false
 tags:

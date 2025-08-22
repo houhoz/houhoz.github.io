@@ -1,8 +1,8 @@
 ---
-title: js进行图像处理：压缩、矫正
+title: JavaScript 图像处理：压缩与旋转
 author: Leohoo
 pubDatetime: 2023-04-28 15:11:26
-slug: javascript-image-processing-compress-rotate
+slug: javascript-image-compression-rotation
 featured: false
 draft: false
 tags:

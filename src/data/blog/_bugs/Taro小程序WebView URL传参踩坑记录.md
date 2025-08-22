@@ -1,8 +1,8 @@
 ---
-title: 记一次url传参引发的bug
+title: Taro小程序WebView URL传参踩坑记录
 author: Leohoo
 pubDatetime: 2021-12-24 15:11:26
-slug: url-parameter-bug-taro-webview
+slug: taro-webview-url-parameter-issue
 featured: false
 draft: false
 tags:

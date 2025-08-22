@@ -1,8 +1,8 @@
 ---
-title: React Hooks
+title: React Hooks 开发指南
 author: Leohoo
 pubDatetime: 2021-10-25 15:11:26
-slug: react-hooks-guide-memo-callback-ref
+slug: react-hooks-development-guide
 featured: false
 draft: false
 tags:

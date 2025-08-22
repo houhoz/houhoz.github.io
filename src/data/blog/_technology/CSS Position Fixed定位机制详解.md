@@ -1,8 +1,8 @@
 ---
-title: Position:fixed 一定是相对于浏览器窗口进行定位吗?
+title: CSS Position Fixed 定位机制详解
 author: Leohoo
 pubDatetime: 2022-05-22 15:11:26
-slug: css-position-fixed-viewport-vs-ancestor
+slug: css-position-fixed-mechanism
 featured: false
 draft: false
 tags:

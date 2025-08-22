@@ -1,8 +1,8 @@
 ---
-title: Git 入门操作命令
+title: Git 常用操作命令大全
 author: Leohoo
 pubDatetime: 2021-06-22 15:11:26
-slug: git-operation-commands-guide
+slug: git-essential-commands-guide
 featured: false
 draft: false
 tags:

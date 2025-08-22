@@ -1,8 +1,8 @@
 ---
-title: 一次 flex 布局
+title: Flex布局与white-space冲突问题解决方案
 author: Leohoo
 pubDatetime: 2022-02-22 15:11:26
-slug: flex-layout-white-space-nowrap-issue
+slug: flex-layout-white-space-conflict-solution
 featured: false
 draft: false
 tags:

@@ -1,8 +1,8 @@
 ---
-title: docker 打包优化
+title: Docker 镜像构建优化策略
 author: Leohoo
 pubDatetime: 2024-08-12 13:40:13
-slug: docker-build-optimization
+slug: docker-image-build-optimization
 featured: false
 draft: false
 tags:

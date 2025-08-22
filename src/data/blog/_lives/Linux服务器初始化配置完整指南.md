@@ -1,12 +1,12 @@
 ---
-title: 新开机一台Linux服务器之后应该做的N件事
+title: Linux 服务器初始化配置完整指南
 author: Leohoo
 pubDatetime: 2024-10-01 13:36:42
-slug: linux-server-setup-checklist
+slug: linux-server-initialization-complete-guide
 featured: false
 draft: false
 tags:
-  - VPS
+  - Linux
 description: Linux服务器初始化配置指南，包含服务器测评脚本、系统重装和哪吒探针安装等实用工具分享。
 ---
 

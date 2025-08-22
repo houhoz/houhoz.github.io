@@ -1,8 +1,8 @@
 ---
-title: How can I use forwardRef() in React?
+title: React forwardRef 使用指南
 author: Leohoo
 pubDatetime: 2023-09-25 15:11:26
-slug: react-forwardref-complete-guide
+slug: react-forwardref-usage-guide
 featured: false
 draft: false
 tags:

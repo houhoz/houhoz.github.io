@@ -1,8 +1,8 @@
 ---
-title: 代码写的少，reduce少不了
+title: JavaScript Array.reduce 实用技巧
 author: Leohoo
 pubDatetime: 2021-04-22 15:11:26
-slug: javascript-reduce-practical-guide
+slug: javascript-array-reduce-tips
 featured: false
 draft: false
 tags:

@@ -1,8 +1,8 @@
 ---
-title: JavaScript的CJS、AMD、CMD、UMD、ESM都是啥
+title: JavaScript 模块系统详解：CJS、AMD、CMD、UMD、ESM
 author: Leohoo
 pubDatetime: 2021-07-22 15:11:26
-slug: javascript-module-systems-cjs-amd-cmd-umd-esm
+slug: javascript-module-systems-comprehensive-guide
 featured: false
 draft: false
 tags:

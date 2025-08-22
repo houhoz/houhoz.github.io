@@ -1,8 +1,8 @@
 ---
-title: Npm、Yarn、Pnpm之间的区别
+title: Node.js 包管理器对比：npm、yarn、pnpm
 author: Leohoo
 pubDatetime: 2022-09-22 15:11:26
-slug: npm-yarn-pnpm-comparison
+slug: nodejs-package-managers-comparison
 featured: false
 draft: false
 tags:
