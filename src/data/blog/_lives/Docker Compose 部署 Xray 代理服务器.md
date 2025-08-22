@@ -3,7 +3,7 @@ title: Docker Compose 部署 Xray 代理服务器
 author: Leohoo
 pubDatetime: 2025-08-23 00:27:28
 slug: docker-compose-deploy-xray
-featured: false
+featured: true
 draft: false
 tags:
   - Docker
