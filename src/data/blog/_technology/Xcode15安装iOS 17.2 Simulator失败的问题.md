@@ -10,8 +10,6 @@ tags:
 description: 解决Xcode15中iOS 17.2模拟器下载失败问题的完整方案，包含手动下载和命令行安装步骤。
 ---
 
-## Table of contents
-
 iOS 17.0 Simulator在下载过程中，频繁失败，也无法断点下载。这时可以手动下载，手动安装。
 
 [登录 - Apple](https://developer.apple.com/download/all/)
