@@ -26,7 +26,7 @@ esm
 
 webpack 输出 umd 规范的文件兼容 ESM
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b388fca1-1bd6-44a9-bde8-eb3335c06608/Untitled.png)
+![img](https://typora-assets.leoho.dev/2025/08/b0084c9a2fd2b1ab0cfdd1be36c6dc1b.png)
 
 ## 一、CJS
 
