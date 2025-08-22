@@ -6,7 +6,7 @@ slug: npm-yarn-pnpm-comparison
 featured: false
 draft: false
 tags:
-  - npm
+  - NPM
 description: 深度对比三大Node.js包管理器npm、yarn、pnpm的特点差异，详解版本控制、安装机制、性能优势和使用场景。
 ---
 

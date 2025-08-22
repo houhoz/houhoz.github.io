@@ -7,7 +7,6 @@ featured: false
 draft: false
 tags:
   - Taro
-  - 小程序
   - 前端踩坑
 description: Taro小程序WebView URL传参踩坑记录，详解encodeURIComponent与encodeURI的区别及正确的URL编解码方式。
 ---

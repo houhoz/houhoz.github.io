@@ -7,7 +7,6 @@ featured: false
 draft: false
 tags:
   - CSS
-  - Position定位
   - 前端踩坑
 description: CSS position:fixed定位深度解析，揭秘transform、perspective、filter属性对fixed定位基准的影响机制。
 ---

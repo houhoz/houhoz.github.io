@@ -6,7 +6,7 @@ slug: react-hooks-guide-memo-callback-ref
 featured: false
 draft: false
 tags:
-  - React Hooks
+  - React
 description: React Hooks实用指南，深入解析useMemo、useCallback、useRef性能优化技巧，理解记忆化机制提升组件渲染效率。
 ---
 

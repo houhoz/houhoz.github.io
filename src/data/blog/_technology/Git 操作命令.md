@@ -7,8 +7,6 @@ featured: false
 draft: false
 tags:
   - Git
-  - 版本控制
-  - 开发工具
 description: Git版本控制完整操作指南，涵盖stash、分支管理、标签操作、冲突处理等常用命令和实用技巧。
 ---
 

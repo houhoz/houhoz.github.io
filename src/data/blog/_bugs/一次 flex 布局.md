@@ -7,7 +7,6 @@ featured: false
 draft: false
 tags:
   - CSS
-  - Flex布局
   - 前端踩坑
 description: 解决Flex布局与white-space:nowrap冲突问题的实战记录，详解文本省略号在弹性布局中的正确实现方式。
 ---

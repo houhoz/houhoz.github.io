@@ -6,7 +6,6 @@ slug: linux-server-setup-checklist
 featured: false
 draft: false
 tags:
-  - Linux
   - VPS
 description: Linux服务器初始化配置指南，包含服务器测评脚本、系统重装和哪吒探针安装等实用工具分享。
 ---

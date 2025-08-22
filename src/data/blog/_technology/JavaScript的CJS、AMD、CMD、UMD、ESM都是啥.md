@@ -7,8 +7,6 @@ featured: false
 draft: false
 tags:
   - JavaScript
-  - 模块化
-  - 前端工程化
 description: JavaScript模块化系统全面解析，深入对比CJS、AMD、CMD、UMD、ESM五种模块规范的特点、差异和适用场景。
 ---
 

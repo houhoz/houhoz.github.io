@@ -5,10 +5,6 @@ pubDatetime: 2021-11-22 15:11:26
 slug: vuepress-blog-setup-tutorial
 featured: false
 draft: false
-tags:
-  - VuePress
-  - 博客搭建
-  - Vue
 description: VuePress博客从零搭建完整教程，包含本地安装、项目结构配置、部署脚本和GitHub Pages发布流程。
 ---
 

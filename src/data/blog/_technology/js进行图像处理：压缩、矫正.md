@@ -7,8 +7,6 @@ featured: false
 draft: false
 tags:
   - JavaScript
-  - Canvas
-  - 图像处理
 description: JavaScript图像处理实战指南，使用Canvas和EXIF.js解决移动端图片压缩和拍照旋转问题的完整方案。
 ---
 

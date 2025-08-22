@@ -6,8 +6,6 @@ slug: es6-class-enumeration-typescript-compilation-differences
 featured: false
 draft: false
 tags:
-  - TypeScript
-  - ES6
   - JavaScript
 description: 深入分析ES6 Class方法不可枚举的设计原理，以及TypeScript编译到ES5/ES6时产生的行为差异和解决方案。
 ---

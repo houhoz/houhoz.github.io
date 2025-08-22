@@ -7,8 +7,6 @@ featured: false
 draft: false
 tags:
   - Docker
-  - 容器化
-  - DevOps
 description: Docker入门及常用命令，深入理解容器化技术在前端开发中的应用。
 ---
 

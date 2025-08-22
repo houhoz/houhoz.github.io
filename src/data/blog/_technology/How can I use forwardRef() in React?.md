@@ -7,8 +7,6 @@ featured: false
 draft: false
 tags:
   - React
-  - Hooks
-  - JavaScript
 description: React forwardRef()完全指南，详解DOM元素引用、类组件实例访问和函数组件ref转发的实现方式和使用场景。
 ---
 
