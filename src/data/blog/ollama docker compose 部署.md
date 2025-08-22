@@ -3,7 +3,7 @@ title: ollama docker compose 部署
 author: Leohoo
 pubDatetime: 2025-03-25 10:50:00
 slug: ollama-docker-compose-deployment
-featured: true
+featured: false
 draft: false
 tags:
   - Docker
