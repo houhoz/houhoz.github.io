@@ -1,7 +1,7 @@
 ---
 title: Docker 镜像构建优化策略
 author: Leohoo
-pubDatetime: 2024-08-12 13:40:13
+pubDatetime: 2024-08-12T13:40:13+08:00
 slug: docker-image-build-optimization
 featured: false
 draft: false

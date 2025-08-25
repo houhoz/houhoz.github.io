@@ -1,7 +1,7 @@
 ---
 title: JavaScript Array.reduce 实用技巧
 author: Leohoo
-pubDatetime: 2021-04-22 15:11:26
+pubDatetime: 2021-04-22T15:11:26+08:00
 slug: javascript-array-reduce-tips
 featured: false
 draft: false

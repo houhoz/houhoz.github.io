@@ -1,7 +1,7 @@
 ---
 title: Flex布局与white-space冲突问题解决方案
 author: Leohoo
-pubDatetime: 2022-02-22 15:11:26
+pubDatetime: 2022-02-22T15:11:26+08:00
 slug: flex-layout-white-space-conflict-solution
 featured: false
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: 手把手搭建vuePress博客
 author: Leohoo
-pubDatetime: 2021-11-22 15:11:26
+pubDatetime: 2021-11-22T15:11:26+08:00
 slug: vuepress-blog-setup-tutorial
 featured: false
 draft: false

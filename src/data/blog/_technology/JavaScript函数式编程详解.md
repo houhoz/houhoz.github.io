@@ -1,7 +1,7 @@
 ---
 title: 函数式编程
 author: Leohoo
-pubDatetime: 2021-07-22 15:11:26
+pubDatetime: 2021-07-22T15:11:26+08:00
 slug: functional-programming-javascript
 featured: false
 draft: false

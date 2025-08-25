@@ -1,7 +1,7 @@
 ---
 title: Oracle Cloud 免费 VPS 申请成功经验分享
 author: Leohoo
-pubDatetime: 2024-10-10 11:42:11
+pubDatetime: 2024-10-10T11:42:11+08:00
 slug: oracle-cloud-free-vps-application-guide
 featured: false
 draft: false

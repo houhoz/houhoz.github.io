@@ -1,7 +1,7 @@
 ---
 title: JavaScript 图像处理：压缩与旋转
 author: Leohoo
-pubDatetime: 2023-04-28 15:11:26
+pubDatetime: 2023-04-28T15:11:26+08:00
 slug: javascript-image-compression-rotation
 featured: false
 draft: false

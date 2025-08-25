@@ -1,7 +1,7 @@
 ---
 title: 如何修改已经提交的 commit 信息
 author: Leohoo
-pubDatetime: 2024-10-25 11:34:51
+pubDatetime: 2024-10-25T11:34:51+08:00
 slug: how-to-modify-commit-messages
 featured: false
 draft: false

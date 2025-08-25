@@ -1,7 +1,7 @@
 ---
 title: Linux 服务器初始化配置完整指南
 author: Leohoo
-pubDatetime: 2024-10-01 13:36:42
+pubDatetime: 2024-10-01T13:36:42+08:00
 slug: linux-server-initialization-complete-guide
 featured: false
 draft: false

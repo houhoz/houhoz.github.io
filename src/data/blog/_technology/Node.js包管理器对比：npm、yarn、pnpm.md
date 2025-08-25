@@ -1,7 +1,7 @@
 ---
 title: Node.js 包管理器对比：npm、yarn、pnpm
 author: Leohoo
-pubDatetime: 2022-09-22 15:11:26
+pubDatetime: 2022-09-22T15:11:26+08:00
 slug: nodejs-package-managers-comparison
 featured: false
 draft: false

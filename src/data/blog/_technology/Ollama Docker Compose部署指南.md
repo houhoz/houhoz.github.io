@@ -1,7 +1,7 @@
 ---
 title: Ollama Docker Compose 部署指南
 author: Leohoo
-pubDatetime: 2025-03-25 10:50:00
+pubDatetime: 2025-03-25T10:50:00+08:00
 slug: ollama-docker-compose-guide
 featured: false
 draft: false

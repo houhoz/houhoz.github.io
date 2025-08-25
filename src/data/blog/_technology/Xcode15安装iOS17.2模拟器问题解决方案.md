@@ -1,7 +1,7 @@
 ---
 title: Xcode15 安装 iOS17.2 模拟器问题解决方案
 author: Leohoo
-pubDatetime: 2023-12-22 15:11:26
+pubDatetime: 2023-12-22T15:11:26+08:00
 slug: xcode15-ios17-simulator-solution
 featured: false
 draft: false
